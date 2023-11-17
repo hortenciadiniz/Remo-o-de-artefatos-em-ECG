@@ -17,6 +17,7 @@ Os artefatos podem ser causados por fatores como:
 * Interferência Eletromagnética: Equipamentos médicos ou dispositivos eletrônicos presentes nas proximidades do local onde o ECG está sendo realizado podem gerar interferências eletromagnéticas.
 
 Este projeto visa retirar os artefatos de um ECG e nele, temos que tirar os artefatos gerados pela linha elétrica da rede.
+
 No Brasil: f=60Hz
 
 O sinal ECG foi pego de uma base de dados disponibilizada no PVAE.
