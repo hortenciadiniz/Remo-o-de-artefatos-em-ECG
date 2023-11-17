@@ -55,7 +55,9 @@ title("ECG original");
 xlabel('Tempo em segundos');
 ylabel('ECG');
 ```
+
 ![ECG Original](./ECG_ORIGINAL.jpg "Áudio Result")
+
 
 * Decidi elaborar esse trecho de código para plotar a FFT do ECG para vermos as frequências, no espectro, que vamos remover.
 * As frequências da linha da rede elétrica são as que nós devemos observar, dada por 60Hz (a fundamental) e as suas harmônicas (3x60Hz, 5x60Hz, 7x60Hz)
@@ -73,7 +75,9 @@ title("FFT do sinal ECG");
 xlabel("f (Hz)")
 ylabel("|P1(f)|")
 ```
+
 ![ECG FFT](./ECG_FFT.jpg "ECG Original")
+
 
 ```
 [ecg_lowpass, ecg_highpass, ecg_comb] = apply_filters(ecg, fs);
@@ -100,7 +104,9 @@ xlabel('Tempo em segundos');
 ylabel('ECG');
 ```
 
+
 * Código projetado para filtro que remove artefatos no ECG
+
 
 ```
 function [ecg_lowpass, ecg_highpass, ecg_comb] = apply_filters(ecg, fs)
@@ -116,7 +122,9 @@ function [ecg_lowpass, ecg_highpass, ecg_comb] = apply_filters(ecg, fs)
     [n, d] = butter(order, low, 'low');
     ecg_lowpass = filtfilt(n, d, ecg); %Aplica o filtro ao sinal ECG usando filtfilt para evitar distorções de fase.
 ```
+
 ![ECG after Low Pass Filter](./ECG_LOW.jpg "ECG after Low Pass Filter")
+
 
 ```
     % Apply Butterworth highpass filter
@@ -125,7 +133,9 @@ function [ecg_lowpass, ecg_highpass, ecg_comb] = apply_filters(ecg, fs)
     [n, d] = butter(order, high, 'high');
     ecg_highpass = filtfilt(n, d, ecg_lowpass);
 ```
+
 ![ECG after High Pass Filter](./ECG_HIGH.jpg "ECG after High Pass Filter")
+
 
 ```
     % Parâmetros Fornecidos pelo Livro-Texto para realizar o projeto do Filtro Combinado
