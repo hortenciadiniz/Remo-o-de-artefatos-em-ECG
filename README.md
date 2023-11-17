@@ -33,11 +33,15 @@ O sinal ECG foi pego de uma base de dados disponibilizada no PVAE.
 
 ![ECG after both filters](./ECG_COMB.png "ECG after both filters")
 
+
 ![ECG Original](./ECG_FFT.png "ECG Original")
+
 
 ![ECG after High Pass Filter](./ECG_HIGH.png "ECG after High Pass Filter")
 
+
 ![ECG after Low Pass Filter](./ECG_LOW.png "ECG after Low Pass Filter")
+
 
 ![ECG Original](./ECG_ORIGINAL.png "Áudio Result")
 
