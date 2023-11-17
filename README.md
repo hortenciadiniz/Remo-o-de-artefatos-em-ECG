@@ -4,7 +4,7 @@
 
 * Hortência Diniz Dultra e Silva - 17/11/23
 
-* Remoção de Artefatos do ECG.
+* Remoção de Artefatos do ECG - Projeto Final - PDS
 
 * Livro-Texto: Biomedical Signal Processing, Rangaraj. Wiley
 
