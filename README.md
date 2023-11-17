@@ -31,17 +31,17 @@ No Brasil: f=60Hz
 
 O sinal ECG foi pego de uma base de dados disponibilizada no PVAE.
 
-![ECG after both filters](./ECG_COMB.png "ECG after both filters")
+![ECG after both filters](./ECG_COMB.jpg "ECG after both filters")
 
 
-![ECG Original](./ECG_FFT.png "ECG Original")
+![ECG Original](./ECG_FFT.jpg "ECG Original")
 
 
-![ECG after High Pass Filter](./ECG_HIGH.png "ECG after High Pass Filter")
+![ECG after High Pass Filter](./ECG_HIGH.jpg "ECG after High Pass Filter")
 
 
-![ECG after Low Pass Filter](./ECG_LOW.png "ECG after Low Pass Filter")
+![ECG after Low Pass Filter](./ECG_LOW.jpg "ECG after Low Pass Filter")
 
 
-![ECG Original](./ECG_ORIGINAL.png "Áudio Result")
+![ECG Original](./ECG_ORIGINAL.jpg "Áudio Result")
 
