@@ -1,5 +1,5 @@
 # Removal-of-ECG-artifacts
-PDS Class - Projeto Final
+PDS Class
 
 No contexto de um eletrocardiograma (ECG), artefatos referem-se a interferências indesejadas ou sinais anômalos que aparecem nos traçados do ECG e que não representam a atividade elétrica do coração. Esses artefatos podem ser causados por vários fatores externos que interferem com a aquisição adequada dos sinais cardíacos.
 Os artefatos podem ser causados por fatores como:
